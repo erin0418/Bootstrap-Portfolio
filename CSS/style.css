@@ -1,0 +1,39 @@
+/* Teal color (used for headings and backgrounds): #4aaaa5 */
+/* Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts: */
+/* For heaxding fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
+
+h3 {
+    color: white;
+    background-color:#4aaaa5;
+    text-align: center;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 240px;
+    margin: 0px;
+}
+a {
+    float: right;
+    color: gray;
+}
+
+.header {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    padding: 0%;
+}
+
+.links {
+    padding: 30px;
+}
