@@ -29,11 +29,47 @@ a {
     background-color: #ffffff;
 }
 
-.container {
-    width: 100%;
-    padding: 0%;
-}
-
 .links {
     padding: 30px;
+}
+h4 {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #4aaaa5;
+}
+
+.containerbody {
+    width: 960px;
+    background-color: #ffffff;
+    margin-left: 245px;
+    margin-top: 40px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+p  {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.form-group {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.btn {
+    color: white;
+    background-color: #4aaaa5;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    padding: 20px;
+    border-top: 10px solid #4aaaa5;
+    margin-top: 160px;
 }
