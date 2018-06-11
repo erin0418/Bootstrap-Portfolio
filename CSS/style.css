@@ -9,29 +9,29 @@ Fonts: */
 /* For heaxding fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
 
-.header h1 {
+.container1 {
+    margin: auto;
+    width: 960px;
+}
+.col-md-4 h1 {
     color: white;
     background-color:#4aaaa5;
     text-align: center;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 250px;
-    margin: 0px;
 }
 a {
     float: right;
     color: gray;
+    padding: 30px;
+    display: inline-block;
 }
 
 .header {
     border: 1px solid #cccccc;
     background-color: #ffffff;
     margin-bottom: 40px;
-}
-
-a {
-    padding: 30px;
-    display: inline;
 }
 h4 {
     margin-left: 30px;
