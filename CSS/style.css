@@ -9,14 +9,13 @@ Fonts: */
 /* For heaxding fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
 
-h3 {
+.header h1 {
     color: white;
     background-color:#4aaaa5;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100%;
-    width: 240px;
+    width: 250px;
     margin: 0px;
 }
 a {
@@ -27,10 +26,12 @@ a {
 .header {
     border: 1px solid #cccccc;
     background-color: #ffffff;
+    margin-bottom: 40px;
 }
 
-.links {
+a {
     padding: 30px;
+    display: inline;
 }
 h4 {
     margin-left: 30px;
@@ -41,8 +42,8 @@ h4 {
 .containerbody {
     width: 960px;
     background-color: #ffffff;
-    margin-left: 245px;
-    margin-top: 40px;
+    margin: auto;
+
 }
 img {
     width: 200px;
@@ -59,7 +60,7 @@ p  {
     margin-right: 25px;
 }
 .btn {
-    color: white;
+    color: #ffffff;
     background-color: #4aaaa5;
     margin-left: 30px;
     margin-bottom: 10px;
@@ -68,12 +69,45 @@ p  {
 .footer {
     text-align: center;
     background-color: #666666;
-    color: white;
+    color: #ffffff;
     padding: 20px;
     border-top: 10px solid #4aaaa5;
     margin-top: 160px;
 }
-.portfolio {
-    height: 150px;
-    width: 150px;
+
+h5 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    z-index: 2;
+    width: 247px;
+    margin: auto;
+    position: absolute;
+
 }
+.portfolio h5 {
+    position: absolute;
+    bottom: 20px;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 0;
+    /* font-weight: 300; */
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    left:9%;
+    bottom: 20%;
+ 
+  }
+  .portfolio img{
+    width: 257px;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  .portfolio {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
