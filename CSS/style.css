@@ -22,7 +22,9 @@ h1 {
     padding: 30px;
     display: inline-block;
 }
-
+a {
+    color: teal;
+}
 .header {
     border: 1px solid #cccccc;
     background-color: #ffffff;
@@ -67,7 +69,7 @@ p  {
     color: #ffffff;
     padding: 20px;
     border-top: 10px solid #4aaaa5;
-    margin-top: 160px;
+    margin-top: 190px;
 }
 
 h5 {
